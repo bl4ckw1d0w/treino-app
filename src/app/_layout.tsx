@@ -40,6 +40,14 @@ export default function Layout() {
             title: "Próximos Treinos",
           }}
         />
+
+        <Drawer.Screen
+          name="dieta"
+          options={{
+            drawerLabel: "Dieta",
+            title: "Dieta Semanal",
+          }}
+        />
       </Drawer>
     </GestureHandlerRootView>
   );}
